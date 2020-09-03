@@ -136,5 +136,8 @@ Indicar qué objetivo tiene el siguiente include:
 </a>
 ```
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> c535de840a398214a80feccd6614d9dbac4c9031
 
