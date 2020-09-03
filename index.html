@@ -17,6 +17,18 @@ layout: default
       </li>
     {% endfor %}
   </ul>
+  
+  <h1>{{ "HELLO WORLD!" | downcase }}</h1>
+
+  <ul class="nav">
+    {% assign paginas = site.character | sort: 'name' %}
+    {% for pagina in paginas %}
+      <li class="nav__item">
+        <a href="{{ pagina.url }}">{{ pagina.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
